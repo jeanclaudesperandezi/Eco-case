@@ -1,0 +1,48 @@
+
+body{
+    background-color: beige;
+}
+
+.titre-conditions{
+    text-decoration: underline;
+}
+
+section{
+    width: 800px;
+    height: 300dvh;
+    text-align: justify;
+    position: absolute;
+    background-color: white;
+    left: 250px;
+   
+}
+
+ol{
+    padding-left: 70px;
+  
+}
+    
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding-left: 25px;
+    padding-right: 20px;
+
+}
+
+h1, h2, h3{
+    padding-left: 20px;
+}
+
+footer{
+    padding-left: 20px;
+    padding-bottom: 30%;
+}
+
+footer, h4{
+    padding-left: 50%;
+}
+

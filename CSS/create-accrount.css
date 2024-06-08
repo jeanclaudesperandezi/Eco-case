@@ -1,0 +1,83 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #dcdae6;
+}
+
+input{
+    display: block;
+    height: 45px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+ }
+
+form{
+    height: 520px;
+    width: 500px;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.6);
+    padding: 50px 35px;
+
+}
+
+form *{
+    font-family: 'Poppins', sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+ }
+
+.background{
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background-image: url(https://i.etsystatic.com/40359504/r/il/d75a54/5316981885/il_794xN.5316981885_bpm4.jpg);
+    background-position: center;
+ 
+}
+::placeholder{
+    color: #e5e5e5;
+}
+
+button{
+    margin-top: 35px;
+    width: 50%;
+    background-color:transparent ;
+    color: #fff;
+    padding: 15px 0;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 100px;
+ }
+ 
+ h1{
+    font-weight: bold;
+ }
+
+ .btn-show-all:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
